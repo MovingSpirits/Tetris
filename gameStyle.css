@@ -1,0 +1,150 @@
+.container{
+    position: absolute;
+    top:30px;
+    left: 300px;
+    width:300px;
+    height:480px;
+    background-color: rgba(241, 228, 189, 0.815);
+    opacity: 0.8;
+    background-size: 300px 400px;
+}
+
+.pre_showBox{
+    top:30px;
+    left:610px;
+    position: absolute;
+    background-color: #706c66;
+    width:80px;
+    height:80px;
+}
+
+.box{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-color: skyblue;
+    border: .3px solid #eeeeee;
+    box-sizing: border-box;
+
+}
+
+.pre_box{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-color: skyblue;
+    border: .3px solid #eeeeee;
+    box-sizing: border-box;
+}
+
+.fixed_box{
+    position:absolute;
+    width:20px;
+    height:20px;
+    /*background-color: #fefefe;*/
+    background: #706c66;
+    border: .3px solid #333333;
+    box-sizing: border-box;
+}
+
+.biaoDan{
+    position: relative;
+    top: 8%;
+    left: 30px;
+    width:220px;
+    height:100px;
+    color :aliceblue;
+    font-weight: bold; /*将字体加粗*/
+}
+
+.leftBiao{
+    float:left;
+}
+
+.rightBiao{
+    float:right;
+
+}
+
+.rightLeftBiao{
+    position: relative;
+    left:-25px;
+    float:left;
+}
+
+.rightRightBiao{
+    float:right;
+}
+
+table {
+    position: absolute;
+    top: 120px;
+    left: 680px;
+    border-collapse: collapse;
+    width: 220px;
+    color:whitesmoke;
+    border-color: wheat;
+}
+
+th, td {
+    top: 50px;
+    left: 600px;
+    border: 1px solid wheat;
+    padding: 8px;
+    text-align: left;
+}
+
+.all_background{
+    /*background: url("gameBg6.png");/* no-repeat;*/
+    background: url("bg4.png");
+    width:900px;
+    height:585px;
+}
+
+.intro{
+    left: 30px;
+    color :aliceblue;
+    font-weight: bold; /*将字体加粗*/
+    position: relative;
+    top: 0%;
+}
+
+.title{
+    font-weight: bold; /*将字体加粗*/
+    color :aliceblue;
+    position:relative;
+    left: 375px;
+}
+
+.start_button{
+    left: 30px;
+    position: relative;
+    top: 13%;
+    height: 50px;
+    width: 200px;
+}
+
+.stop_button{
+    left: 30px;
+    position: relative;
+    top: 15%;
+    height: 50px;
+    width: 200px;
+}
+
+.reStart_button{
+    left: 30px;
+    position: relative;
+    top: 17%;
+    height: 50px;
+    width: 200px;
+}
+
+.input_label{
+    left: 30px;
+    color :aliceblue;
+    font-weight: bold; /*将字体加粗*/
+    position: relative;
+    top: 5%;
+    width: 207px;
+}
