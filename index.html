@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> game </title>
+    <link rel="stylesheet" href="gameStyle.css">
+
+</head>
+<body onload="init()">
+
+
+    <div class="all_background">
+
+        <div class="title">俄罗斯方块小游戏</div>
+
+        <div class="intro">
+            <!--<p class="=title">俄罗斯方块小游戏</p>-->
+            <p class="tips">tips: ↑旋转&nbsp;&nbsp;&nbsp;←向左移动<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→向右移动&nbsp;&nbsp;&nbsp;↓向下移动</p>
+            
+        </div>
+
+        <input class="input_label" type="text" id="your_name" placeholder="请输入昵称（默认为游客）">
+        
+    
+        <br>
+    
+        <div class="biaoDan">
+            <div class="leftBiao">
+               <form action="">
+                <p>请选择难度</p>
+                <input type="radio" name="difficulty" value="normal" checked>一般<br>
+                <input type="radio" name="difficulty" value="easy">简单<br>
+                <input type="radio" name="difficulty" value="hard">困难
+                
+                </form> 
+            </div>
+    
+            <div class="rightBiao">
+    
+                <!--<div class="rightLeftBiao">-->
+                    <form action="">
+                        <p>请选择方块颜色</p>
+                        <input type="radio" name="colorChange" value="redColor" checked>红<br>
+                        <input type="radio" name="colorChange" value="yellowColor">黄<br>
+                        <input type="radio" name="colorChange" value="blueColor">蓝
+                     </form> 
+                 
+        
+                 <!--
+                 <div class="rightRightBiao">
+                    <form action="">
+                        <input type="radio" name="styleChange" value="full" checked>实心<br>
+                        <input type="radio" name="styleChange" value="have" >有条纹<br>
+                        <input type="radio" name="styleChange" value="nohave">无条纹
+                     
+                     </form> 
+                 </div>-->
+    
+            </div>
+            
+            
+        </div>
+        
+    
+        <!--背景-->
+        <div class="container" id="container"></div>
+    
+        <!--预览-->
+        <div class="pre_showBox" id="pre_showBox"></div>
+    
+        <!--开始游戏-->
+        <button class="start_button" id="start_button">开始游戏</button> 
+
+        <br>
+    
+        <!--暂停按钮-->
+        <button class="stop_button" id="stop_button">暂停游戏</button>  
+    
+        <br>
+        <!--重开按钮-->
+        <button class="reStart_button" id="reStart_button">重开游戏</button> 
+    
+        <br>
+    
+        <table id="leaderBoardTable">
+            <thead>
+                <tr>
+                    <th>排名</th>
+                    <th>用户名</th>
+                    <th>得分</th>
+                  </tr>
+            </thead>
+            <tbody>
+    
+              </tbody>
+          </table>
+    
+
+    </div>
+
+    
+</body>
+
+<script src="gameScript.js" type="text/javascript"></script>
+
+</html>
